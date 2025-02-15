@@ -24,15 +24,26 @@ for i in choice_:
     elif i==4:
         C_run+=4
         print("Four runs")
-    elif i==5 or i==7 or i==8 or i==9:
+    elif i==5:
         C_wicket_fall+=1
-        print("OUT")
+        print("Run Out or Stumping")
     elif i==6:
         C_run+=6
         print("Six runs")
+    elif i==7:
+        C_wicket_fall+=1
+        print("Bowled Out")
+    elif i==8:  
+        C_wicket_fall+=1
+        print("Caught Out")
+    elif i==9:                      
+        C_wicket_fall+=1
+        print("LBW")
     else:
         print("No Run")
-print("Total: ")
 print("You Score= ", C_run)
 print("Wicket Falls: ",C_wicket_fall)
+
+    
+    
 
